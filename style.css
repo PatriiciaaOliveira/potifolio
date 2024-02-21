@@ -1,1 +1,53 @@
 @charset "UTF-8";
+
+*{
+    margin: 0;
+    padding:0;
+
+}
+
+body{
+
+    background-color: rgb(122, 210, 250);
+    color: black;
+    text-align: auto;
+    height: 100vh;
+    box-sizing: border-box; 
+}
+.apresentacao__conteudo__titulo{
+    font-size: 50px;
+    font-style: italic;
+    text-align: auto;
+    
+}
+
+.apresentacao__redes-sociais__links img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.400);
+    box-sizing: border-box;
+}
+
+.apresentacao__redes-sociais__links img:hover{
+    border: 2px solid rgba(255,255,255,0.637);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.400);
+    transition: transform .5, border 1s;
+
+}
+
+.apresentacao__conteudo__foto{
+    max-width: 350px;
+    margin: 15px 0px;
+}
+
+
+
+
+
+
+
+
+
+
