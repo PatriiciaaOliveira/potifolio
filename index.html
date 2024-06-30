@@ -4,37 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+    <title>Portfólio - Patricia Oliveira</title>
 </head>
-
 <body>
-    <main class="apresentacao">
-    <section class="apresentacao__conteudo">
-    <h1 class="apresentacao__conteudo__titulo"> Patricia Oliveira </h1>
-    <section id="tela">
-        <iframe src="about.html" frameborder="0">
-            Seu navegador não é compatível com isso.
-        </iframe>
-
-    </section>
-   
- 
-    <div class="apresentacao__redes-sociais">
-        <a class="apresentacao__redes-sociais__links" href="index.html"><img src="imagens/logo-home.jpg" alt="Home"></a>
-
-        <a class="apresentacao__redes-sociais__links" href="https://www.instagram.com/patriciaholiveira30/" target="_blank"><img src="imagens/logo-instagram.jpg" alt="Instragan"></a>
-        <a class="apresentacao__redes-sociais__links" href="https://github.com/PatriiciaaOliveira" target="_blank"><img src="imagens/logo-github.jpg" alt="GitHub"></a>
-       <a class="apresentacao__redes-sociais__links" href="https://www.linkedin.com/in/patricia-oliveira-b05545261/ " target="_blank"><img src="imagens/174857.png" alt="Linkedin"></a>
-    </div>
-    
-   <div class="apresentacao__conteudo__foto">
-    <img id="foto" src="imagens/patricia.png" alt="Patricia">
-    </div>
-
-</section>
-</header>
-       
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="apresentacao" id="about">
+            <div class="apresentacao__conteudo">
+                <h1 class="apresentacao__conteudo__titulo">Patricia Oliveira</h1>
+                <p>Desenvolvedora Web apaixonada por tecnologia e inovação. Aqui estão alguns dos meus trabalhos.</p>
+                <div class="apresentacao__conteudo__foto">
+                    <img id="foto" src="imagens/patricia.png" alt="Patricia">
+                </div>
+            </div>
+            <div class="apresentacao__redes-sociais">
+                <a class="apresentacao__redes-sociais__links" href="#"><img src="imagens/logo-home.jpg" alt="Home"></a>
+                <a class="apresentacao__redes-sociais__links" href="https://www.instagram.com/patriciaholiveira30/" target="_blank"><img src="imagens/logo-instagram.jpg" alt="Instagram"></a>
+                <a class="apresentacao__redes-sociais__links" href="https://github.com/PatriiciaaOliveira" target="_blank"><img src="imagens/logo-github.jpg" alt="GitHub"></a>
+                <a class="apresentacao__redes-sociais__links" href="https://www.linkedin.com/in/patricia-oliveira-b05545261/" target="_blank"><img src="imagens/174857.png" alt="LinkedIn"></a>
+            </div>
+        </section>
         
-    
+        <section id="projects" class="projects">
+            <h2>Projetos</h2>
+            <div class="projects__list" id="projectsList">
+                <div class="project">
+                    <h3>Projeto Extensão: Extensão da faculdade Unip</h3>
+                    <p>Descrição: Trabalho da faculdade que esta na grade curricular.</p>
+                    <a href="patriiciaaoliveira.github.io/Extensao/"target="_blank">Ver Projeto</a>
+                </div>
+                <h3>Projeto PIM: Pim da faculdade Unip</h3>
+                    <p>Descrição: Projeto da faculdade pim, foi realizado para concluir o bimestre.</p>
+                    <a href="patriiciaaoliveira.github.io/Projeto-Pim5/
+                    "target="_blank">Ver Projeto</a>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact">
+            <h2>Contato</h2>
+            <p>Entre em contato comigo através das minhas redes sociais ou envie um e-mail para <a href="patriciaholiveira30@gmail.com"></a>patriciaholiveira30@gmail.com</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>

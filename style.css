@@ -1,49 +1,137 @@
 @charset "UTF-8";
 
-*{
+* {
     margin: 0;
-    padding:0;
-
-}
-
-body{
-
-    background-color: rgb(122, 210, 250);
-    color: black;
-    text-align: auto;
-    height: 100vh;
-    box-sizing: border-box; 
-}
-.apresentacao__conteudo__titulo{
-    font-size: 50px;
-    font-style: italic;
-    text-align: auto;
-    
-}
-
-.apresentacao__redes-sociais__links img{
-    width: 50px;
-    margin: 10px;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.400);
+    padding: 0;
     box-sizing: border-box;
 }
 
-.apresentacao__redes-sociais__links img:hover{
-    border: 2px solid rgba(255,255,255,0.637);
+body {
+    background-color: rgb(122, 210, 250);
+    color: black;
+    text-align: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.apresentacao {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 50px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.apresentacao__redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.apresentacao__redes-sociais__links img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.apresentacao__redes-sociais__links img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.637);
     transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.400);
-    transition: transform .5, border 1s;
-
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    transition: transform .5s, border 1s;
 }
 
-.apresentacao__conteudo__foto{
+.apresentacao__conteudo__foto {
     max-width: 350px;
-    margin: 15px 0px;
+    margin: 15px 0;
 }
 
+.apresentacao__conteudo__foto img {
+    border-radius: 50%;
+    width: 100%;
+}
 
+.projects {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+.projects h2 {
+    margin-bottom: 20px;
+}
+
+.projects__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 
 
